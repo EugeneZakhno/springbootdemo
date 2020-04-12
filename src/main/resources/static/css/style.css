@@ -3,4 +3,8 @@ body{
     text-align: center;
     margin: auto;
     display: inline-block;
+    width: 100%;
+}
+table{
+    margin: auto;
 }

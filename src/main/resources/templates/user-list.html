@@ -2,14 +2,14 @@
 <html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="UTF-8">
-    <title>User</title>
-    <link rel="stylesheet" href="../static/styles/style.css" th:href="@{/styles/style.css}" >
+    <title>Users</title>
+    <link rel="stylesheet" href="../static/css/style.css" th:href="@{/css/style.css}" >
 </head>
 <body>
 <div th:switch="${users}">
     <h2 th:case="null">No users found!</h2>
     <div th:case="*">
-        <h2>User</h2>
+        <h2>Users</h2>
         <table>
             <thead>
             <tr>
