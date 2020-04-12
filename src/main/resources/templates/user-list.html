@@ -2,15 +2,15 @@
 <html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="UTF-8">
-    <title>Users</title>
+    <title>User</title>
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
 <div th:switch="${users}">
     <h2 th:case="null">No users found!</h2>
     <div th:case="*">
-        <h2>Users</h2>
-        <table>
+        <h2>User</h2>
+        <table class="table-model" >
             <thead>
             <tr>
                 <th>Id</th>

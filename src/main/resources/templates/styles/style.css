@@ -1,9 +1,10 @@
-html{
-    margin: 0;
-    background: yellow;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%)
+body{
+    background-color: yellow;
+    text-align: center;
+    margin: auto;
+}
+.table-model{
+    background-color: yellow;
+    text-align: center;
+    margin: auto;
 }
