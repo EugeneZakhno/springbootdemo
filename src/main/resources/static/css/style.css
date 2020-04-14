@@ -6,5 +6,7 @@ body{
 }
 table{
     margin: auto;
+    border: 4px black;
+    border-collapse: collapse; /* Отображать только одинарные линии */
 }
 
