@@ -1,11 +1,1 @@
-INSERT INTO springbootdemo.books (id, book_name, author_name) VALUES (7, 'hsdf', 'hgsdf');
-INSERT INTO springbootdemo.books (id, book_name, author_name) VALUES (8, 'hjkkl;', 'jlhjjkl;');
-INSERT INTO springbootdemo.books (id, book_name, author_name) VALUES (14, 'ds', 'sd');
-INSERT INTO springbootdemo.books (id, book_name, author_name) VALUES (16, 'dfg', 'fg');
-INSERT INTO springbootdemo.books (id, book_name, author_name) VALUES (18, 'jksdfgh', 'klksdcfgh');
-INSERT INTO springbootdemo.books (id, book_name, author_name) VALUES (20, 'zsd', 'sd');
-INSERT INTO springbootdemo.books (id, book_name, author_name) VALUES (21, 'ывмвым', 'вамв');
-INSERT INTO springbootdemo.books (id, book_name, author_name) VALUES (26, 'sdfg', 'sdfg');
-INSERT INTO springbootdemo.books (id, book_name, author_name) VALUES (27, 'sdfg', 'gh');
-INSERT INTO springbootdemo.books (id, book_name, author_name) VALUES (28, 'sdfg', 'sdfg');
-INSERT INTO springbootdemo.books (id, book_name, author_name) VALUES (29, 'fghdfgh', 'fghd');
+INSERT INTO springbootdemo.books (id, serial_number, year, lang, author_name, publishing_company, book_name, topic, link) VALUES (35, 1, 2008, 'eng', 'Kathy Sierra, Bert Bates', 'O''reilly', 'Head First.  Servlets and JSP   2th edition', 'Java SE', 'https://drive.google.com/file/d/1FirAYTonPqICGxC__N7bAkPf-0RboOgh/view?usp=sharing');

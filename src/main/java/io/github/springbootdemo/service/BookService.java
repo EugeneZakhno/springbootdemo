@@ -11,7 +11,6 @@ import java.util.List;
 @Service
 public class BookService {
 
-
     private final BookRepository bookRepository;
     @Autowired
     public BookService(BookRepository bookRepository) {  // binding make via constructor
@@ -25,6 +24,7 @@ public class BookService {
     public List<Book> findAll(){               // read
         return bookRepository.findAll();
     }
+
     public Book saveBook(Book book){           // update
         return bookRepository.save(book);
     }
