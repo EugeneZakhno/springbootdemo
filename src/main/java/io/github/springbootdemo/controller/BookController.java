@@ -1,7 +1,7 @@
-package net.proselyte.springbootdemo.controller;
+package io.github.springbootdemo.controller;
 
-import net.proselyte.springbootdemo.model.Book;
-import net.proselyte.springbootdemo.service.BookService;
+import io.github.springbootdemo.model.Book;
+import io.github.springbootdemo.service.BookService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

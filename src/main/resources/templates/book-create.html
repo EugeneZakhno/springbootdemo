@@ -7,11 +7,32 @@
 </head>
 <body>
 <form action="#" th:action="@{/book-create}" th:object="${book}" method="post">
-    <label for="bookName">Book name</label>
-    <input type="text" th:field="*{bookName}" id="bookName" placeholder="Book Name">
+
+    <label for="serialNumber">Serial number</label>
+    <input type="text" th:field="*{serialNumber}" id="serialNumber" placeholder="Serial Number">
+
+    <label for="year">Year</label>
+    <input type="text" th:field="*{year}" id="year" placeholder="Year">
+
+    <label for="lang">Lang</label>
+    <input type="text" th:field="*{lang}" id="lang" placeholder="Lang">
+
     <label for="authorName">Author name</label>
     <input type="text" th:field="*{authorName}" id="authorName" placeholder="Author Name">
-    <input type="submit" value="Create Book">
+
+    <label for="publishingCompany">Publishing Company</label>
+    <input type="text" th:field="*{publishingCompany}" id="publishingCompany" placeholder="Publishing Company">
+
+    <label for="bookName">Book name</label>
+    <input type="text" th:field="*{bookName}" id="bookName" placeholder="Book Name">
+
+    <label for="topic">Topic</label>
+    <input type="text" th:field="*{topic}" id="topic" placeholder="Topic">
+
+    <label for="link">Link</label>
+    <input type="text" th:field="*{link}" id="link" placeholder="Link">
+
+    <input type="submit" value="Add Book">
 </form>
 </body>
 </html>

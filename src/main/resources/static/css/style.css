@@ -4,9 +4,10 @@ body{
     margin: auto;
     width: 100%;
 }
-table{
+table, td, th {
     margin: auto;
-    border: 4px black;
-    border-collapse: collapse; /* Отображать только одинарные линии */
+    border-collapse: collapse;
+    border: 1px solid black;
+
 }
 

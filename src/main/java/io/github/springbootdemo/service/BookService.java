@@ -1,7 +1,7 @@
-package net.proselyte.springbootdemo.service;
+package io.github.springbootdemo.service;
 
-import net.proselyte.springbootdemo.model.Book;
-import net.proselyte.springbootdemo.repository.BookRepository;
+import io.github.springbootdemo.model.Book;
+import io.github.springbootdemo.repository.BookRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

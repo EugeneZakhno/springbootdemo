@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Books</title>
-    <link rel="stylesheet" href="../static/css/style.css" th:href="@{/css/style.css}" >
+    <link rel="stylesheet" href="../static/css/style.css" th:href="@{/css/style.css}">
 </head>
 <body>
 <div th:switch="${books}">
@@ -14,22 +14,37 @@
             <thead>
             <tr>
                 <th>Id</th>
-                <th>Book name</th>
+                <th>Serial Number</th>
+                <th>Year</th>
+                <th>Lang</th>
+                <th>Publishing Company</th>
                 <th>Author name</th>
+                <th>Book name</th>
+                <th>Topic</th>
+                <th>Link</th>
+                <th>Edit</th>
+                <th>Delete</th>
             </tr>
             </thead>
             <tbody>
-                <tr th:each="book : ${books}">
+            <tr th:each="book : ${books}">
+
                 <td th:text="${book.id}"></td>
-                <td th:text="${book.bookName}"></td>
+                <td th:text="${book.serialNumber}"></td>
+                <td th:text="${book.year}"></td>
+                <td th:text="${book.lang}"></td>
                 <td th:text="${book.authorName}"></td>
+                <td th:text="${book.publishingCompany}"></td>
+                <td th:text="${book.bookName}"></td>
+                <td th:text="${book.topic}"></td>
+                <td th:text="${book.link}"></td>
                 <td><a th:href="@{book-update/{id}(id=${book.id})}">Edit</a></td>
                 <td><a th:href="@{book-delete/{id}(id=${book.id})}">Delete</a></td>
             </tr>
             </tbody>
         </table>
     </div>
-    <p><a href="/book-create">Create book</a></p>
+    <p><a href="/book-create">Add book</a></p>
 </div>
 </body>
 </html>

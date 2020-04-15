@@ -1,4 +1,4 @@
-package net.proselyte.springbootdemo;
+package io.github.springbootdemo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
