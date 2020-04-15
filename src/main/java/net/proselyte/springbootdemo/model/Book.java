@@ -11,17 +11,17 @@ import javax.persistence.GenerationType;
 
 @Data
 @Entity
-@Table(name = "users")
-public class User {
+@Table(name = "books")
+public class Book {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column(name = "first_name")
-    private String firstName;
+    @Column(name = "book_name")
+    private String bookName;
 
-    @Column(name = "last_name")
-    private  String lastName;
+    @Column(name = "author_name")
+    private  String authorName;
 
 
 

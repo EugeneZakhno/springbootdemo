@@ -1,8 +1,8 @@
 package net.proselyte.springbootdemo.repository;
 
-import net.proselyte.springbootdemo.model.User;
+import net.proselyte.springbootdemo.model.Book;
 import org.springframework.data.jpa.repository.JpaRepository;
 
-public interface UserRepository extends JpaRepository<User, Long> {
+public interface BookRepository extends JpaRepository<Book, Long> {
 
 }
