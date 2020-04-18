@@ -38,6 +38,10 @@ public class Book {
     @Column(name = "topic")
     private String topic;
 
+ /*   @Column(name = "cover")
+    private String cover;*/
+
+
     @Column(name = "link")
     private String link;
 }

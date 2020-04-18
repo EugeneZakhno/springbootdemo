@@ -18,7 +18,7 @@
                 <th width="120">Year</th>
                 <th width="120">Lang</th>
                 <th width="120">Publishing Company</th>
-                <th width="120"> Author name</th>
+                <th width="120">Author name</th>
                 <th width="120">Book name</th>
                 <th width="120">Topic</th>
                 <th width="60">Link</th>
@@ -27,8 +27,7 @@
             </tr>
             </thead>
             <tbody>
-            <tr th:each="book : ${books}">
-
+            <tr th:each="book:${books}">
                 <td th:text="${book.id}"></td>
                 <td th:text="${book.serialNumber}"></td>
                 <td th:text="${book.year}"></td>
