@@ -32,7 +32,10 @@
     <input type="text" th:field="*{topic}" id="topic" placeholder="Topic">
     <br/>
     <label for="cover">Cover</label>
-    <input type="image" th:field="*{cover}" id="cover" placeholder="Cover">
+    <form method="post" enctype="multipart/form-data" action="/uploadImage">
+        <input type="image" th:field="*{cover}" id="cover" placeholder="Cover">
+        <input type="submit" value="/Upload">
+    </form>
     <br/>
     <label for="link">Book name</label>
     <input type="text" th:field="*{link}" id="link" placeholder="Link">

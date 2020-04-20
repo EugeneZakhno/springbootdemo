@@ -16,7 +16,7 @@ table, td, th {
     border: 1px solid black;
 }
 thead{
-    background-color: bisque;
+    background-color: #ffc427;
 }
 .input{
     background-size: 100%;

@@ -41,7 +41,6 @@ public class Book {
     @Column(name = "cover")
     private String cover;
 
-
     @Column(name = "link")
     private String link;
 

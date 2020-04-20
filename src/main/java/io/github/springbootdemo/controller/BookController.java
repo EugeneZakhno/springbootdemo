@@ -39,6 +39,7 @@ public class BookController {
         return "redirect:/books";
     }
 
+
     @GetMapping("book-delete/{id}")
     public String deleteBook(@PathVariable("id") Long id){
         bookService.deleteById(id);
@@ -51,6 +52,8 @@ public class BookController {
         model.addAttribute("book", book);
         return "book-update";
     }
+
+
 
     @PostMapping("/book-update")
     public String updateBook(Book Book){
