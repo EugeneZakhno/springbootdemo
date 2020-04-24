@@ -31,11 +31,13 @@
     <label for="topic">Topic</label>
     <input type="text" th:field="*{topic}" id="topic" placeholder="Topic">
     <br/>
-    <label for="cover">Cover</label>
-    <form method="post" enctype="multipart/form-data" action="/uploadImage">
-        <input type="image" th:field="*{cover}" id="cover" placeholder="Cover">
-        <input type="submit" value="/Upload">
+    <label>Cover</label>
+    <form method="POST" enctype="multipart/form-data"
+          action="/upload">
+        File to upload: <input type="file" name="file"><br /> Name:
+        <input type="text" name="name"><br /> <br /> <input type="submit" value="Upload"> Press here to upload the file!
     </form>
+
     <br/>
     <label for="link">Book name</label>
     <input type="text" th:field="*{link}" id="link" placeholder="Link">
