@@ -35,7 +35,7 @@
                 <td th:text="${book.publishingCompany}"></td>
                 <td th:text="${book.bookName}"></td>
                 <td th:text="${book.topic}"></td>
-                <td th:text="${book.cover}" th:href="@{/url/url}"></td>
+                <td th:text="${book.cover}"></td>
                 <td th:text="${book.link}" placeholder="See text"></td>
                 <td><a th:href="@{book-update/{id}(id=${book.id})}">Edit</a></td>
                 <td><a th:href="@{book-delete/{id}(id=${book.id})}">Delete</a></td>
