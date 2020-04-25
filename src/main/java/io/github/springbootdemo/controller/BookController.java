@@ -53,11 +53,6 @@ public class BookController {
         return "book-update";
     }
 
-
-
-
-
-
     @PostMapping("/book-update")
     public String updateBook(Book Book){
         bookService.saveBook(Book);
